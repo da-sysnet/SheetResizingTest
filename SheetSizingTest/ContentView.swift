@@ -14,6 +14,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            /*
+             Use the buttons to present each sheet in turn. Once presented, use split view to move the app into a compact size class. The sheet will resize as expected. Now close split view to return the app to a regular size class. The sheets using the .form and .custom presentationSizing will return to their original size. The sheet using the .page presentationSizing will change to a different size which appears to use the .page sheet height and the .form sheet width.
+             */
             Spacer()
             
             Button {
